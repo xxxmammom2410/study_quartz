@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"702ba14f4e2abe25","x":-118,"y":-505,"width":958,"height":298,"type":"group","label":"今日の夕飯検討"},
+		{"id":"e694b67dac855594","type":"file","file":"宅建/宅建業法/専任媒介契約.md","x":464,"y":24,"width":400,"height":776},
+		{"id":"c0e92af36d75a6db","type":"file","file":"宅建/宅建業法/一般媒介契約.md","x":0,"y":24,"width":400,"height":776},
+		{"id":"ebfb448e8a5db5bc","type":"file","file":"宅建/宅建業法/専属専任媒介契約.md","x":960,"y":24,"width":400,"height":776},
+		{"id":"ecf0917042910f17","x":-13,"y":-142,"width":250,"height":60,"type":"text","text":"カード1"},
+		{"id":"998aaf1268512ffe","x":303,"y":-146,"width":250,"height":60,"type":"text","text":"カード2"},
+		{"id":"466513dd51e7e48f","x":-98,"y":-287,"width":250,"height":60,"type":"text","text":"買い物\n"},
+		{"id":"5d20b8c2c464dc96","x":275,"y":-287,"width":250,"height":60,"type":"text","text":"下ごしらえ"},
+		{"id":"5ee34d6432282a05","x":570,"y":-287,"width":250,"height":60,"type":"text","text":"ご飯たく"},
+		{"id":"dd2f51c8b867f19a","x":570,"y":-485,"width":250,"height":60,"type":"text","text":"アライグマ"},
+		{"id":"1d3a277a5a627137","x":275,"y":-485,"width":250,"height":60,"type":"text","text":"手洗い"}
+	],
+	"edges":[
+		{"id":"53a5355ff8378968","fromNode":"466513dd51e7e48f","fromSide":"right","toNode":"5d20b8c2c464dc96","toSide":"left"},
+		{"id":"8985a20006a912b8","fromNode":"5d20b8c2c464dc96","fromSide":"top","toNode":"1d3a277a5a627137","toSide":"bottom"},
+		{"id":"4eb8a8152af9cccb","fromNode":"5d20b8c2c464dc96","fromSide":"right","toNode":"5ee34d6432282a05","toSide":"left"},
+		{"id":"79e314731d4b284d","fromNode":"dd2f51c8b867f19a","fromSide":"bottom","toNode":"5ee34d6432282a05","toSide":"top"}
+	]
+}
