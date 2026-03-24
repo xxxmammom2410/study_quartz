@@ -37,13 +37,13 @@ const PreviousNext: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPr
       <div className="nav-container">
         {prevPage && (
           <a href={`/${prevPage.slug}`} className="prev-link">
-            ← {i18n("component.previousNext.prev")} <-:{" "}
+            ← {i18n("component.previousNext.prev")} :{" "}
             {prevPage.frontmatter?.title ?? prevPage.slug.split("/").pop() ?? prevPage.slug}
           </a>
         )}
         {nextPage && (
           <a href={`/${nextPage.slug}`} className="next-link">
-            {i18n("component.previousNext.next")} :->{" "}
+            {i18n("component.previousNext.next")} :{" "}
             {nextPage.frontmatter?.title ?? nextPage.slug.split("/").pop() ?? nextPage.slug} →
           </a>
         )}
